@@ -7,7 +7,7 @@ public class Anagram {
     public boolean isAnagram(String s, String t) {
         if(s==null || t==null) return false;
         if(s.length() != t.length()) return false;
-        if(s.length() == 0) return false;
+        if(s.isEmpty()) return false;
 
         int[] alpha = new int[26];
 
