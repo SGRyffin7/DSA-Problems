@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5ac3a2c-6fa7-462b-9aff-a82307137904" name="Changes" comment="DSA Problems">
-      <change afterPath="$PROJECT_DIR$/src/com/greygryffin/practice/easy/Search2DMatrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/greygryffin/practice/easy/TwoSum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/greygryffin/practice/hard/ImportExport.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/greygryffin/practice/medium/AnagramGroupsKt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/greygryffin/practice/medium/BuySellStock.kt" afterDir="false" />
+    <list default="true" id="a5ac3a2c-6fa7-462b-9aff-a82307137904" name="Changes" comment="DSA Problems 29/09/2024">
+      <change afterPath="$PROJECT_DIR$/src/com/greygryffin/practice/medium/CountingBits.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/greygryffin/practice/medium/GenerateParanthesis.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/greygryffin/practice/medium/TreeMirror.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/greygryffin/practice/easy/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/greygryffin/practice/easy/Anagram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +54,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.BuySellStockKt.executor": "Run",
+    "Kotlin.CountingBitsKt.executor": "Run",
+    "Kotlin.GenerateParanthesisKt.executor": "Run",
     "Kotlin.ImportExportKt.executor": "Run",
     "Kotlin.Search2DMatrixKt.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "289",
-    "com.google.cloudcode.ide_session_index": "20240929_0003",
+    "com.google.cloudcode.ide_session_index": "20241001_0001",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -72,20 +71,7 @@
     "settings.editor.selected.configurable": "com.android.studio.ml.bot.mainConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.BuySellStockKt">
-    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.greygryffin.practice.medium.RotateImage" />
-      <module name="Practice App" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.greygryffin.practice.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.GenerateParanthesisKt">
     <configuration name="BuySellStockKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.greygryffin.practice.medium.BuySellStockKt" />
       <module name="Practice App" />
@@ -93,15 +79,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImportExportKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.greygryffin.practice.hard.ImportExportKt" />
+    <configuration name="CountingBitsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.greygryffin.practice.medium.CountingBitsKt" />
       <module name="Practice App" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.greygryffin.practice.easy.PowerKt" />
+    <configuration name="GenerateParanthesisKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.greygryffin.practice.medium.GenerateParanthesisKt" />
+      <module name="Practice App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImportExportKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.greygryffin.practice.hard.ImportExportKt" />
       <module name="Practice App" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.GenerateParanthesisKt" />
+        <item itemvalue="Kotlin.CountingBitsKt" />
         <item itemvalue="Kotlin.BuySellStockKt" />
         <item itemvalue="Kotlin.ImportExportKt" />
         <item itemvalue="Kotlin.Search2DMatrixKt" />
-        <item itemvalue="Kotlin.PowerKt" />
-        <item itemvalue="Application.RotateImage" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727600345828</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DSA Problems 29/09/2024">
+      <option name="closed" value="true" />
+      <created>1727713313873</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727713313873</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,7 +157,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DSA Problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="DSA Problems" />
+    <MESSAGE value="DSA Problems 29/09/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA Problems 29/09/2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
